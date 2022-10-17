@@ -12,7 +12,7 @@ This is a code generation program that takes in natural language text and conver
 st.write('Select the programming language you want to generate to:')
 language = st.selectbox('', ('Python', 'C#', 'JavaScript', 'Go', 'Perl', 'PHP', 'Ruby', 'Swift', 'TypeScript', 'SQL', 'Shell'))
 
-openai.api_key = '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'
+openai.api_key = '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'
 
 
 input_text = st.text_area('Enter your question')
